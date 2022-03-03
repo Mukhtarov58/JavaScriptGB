@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        "use strict"
+        //пример 1
+        let a = 1, b = 1, c, d;
+        c = ++a; // ++ это инкримент увеличил а на 1 и прибавил ещё 1 так как стоит перед а
+        alert(c); // ответ: 2
+
+        //пример 2
+        d = b++; // тоже инкримент но стоит после b поэтому увеличил после присвоения
+        alert(d); //ответ: 1
+
+        //пример 3
+
+        c = 2 + ++a; // 2 прибавили к увеличеной на 1 а соответственно 3
+        alert(c); //ответ: 5
+
+        //пример 4
+
+        d = 2 + b++; // 2 приибавили к b которая рана 2 и после увеличили на 1 соответственно стало 3
+
+        alert(d); //ответ: 4
+
+        alert(a); //3 
+
+        alert(b); //3
+
+
+    </script>
+</body>
+
+</html>

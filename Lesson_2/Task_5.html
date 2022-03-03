@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function mathOperation(arg1, arg2, operation) {
+            switch (operation) {
+                case 'сложение':
+                    return arg1 + arg2;
+                    break;
+                case 'вычитание':
+                    return arg1 - arg2;
+                    break;
+                case 'деление':
+                    return arg1 / arg2;
+                    break;
+                case 'умножение':
+                    return arg1 * arg2;
+                    break;
+            }
+        }
+        let sumNum = mathOperation(1, 5, 'сложение');
+        alert(sumNum);
+    </script>
+
+</body>
+
+</html>
